@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: #0e7e12;
+}
+
+.box {
+  width: 20rem;
+  flex-direction: column;
+  height: 30rem;
+  display: flex;
+  background-color: white;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 12px;
+}
+
+.suit {
+  display: flex;
+  font-size: 60px;
+}
+
+.suit-bottom {
+  display: flex;
+  font-size: 60px;
+  justify-content: end;
+  height: 6rem;
+  rotate: x 180deg;
+}
+
+.values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  height: 18rem;
+}
+
+#top {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  height: 6rem;
+}
